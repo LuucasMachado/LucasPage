@@ -1,11 +1,9 @@
-
-// @flow
 'use strict';
 
 import React, { Component } from 'react';
 import Presentation from './Presentation/Presentation.js';
-import Presentation2 from './Presentation2/Presentation2.js';
-import Main from './Main.styl'
+import './Main.styl';
+
 
 
 class AppComponent extends React.Component {
@@ -13,7 +11,6 @@ class AppComponent extends React.Component {
     return (
       <div className="index">
         <Presentation />
-        <Presentation2 />
       </div>
     );
   }

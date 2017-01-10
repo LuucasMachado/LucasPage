@@ -10,16 +10,18 @@ class Header extends Component {
     return (
 
       <div className="Header">
-        <div className="Logo">
-          <img src="../../images/Logo_Lucas.png"/>
+      <div className="headerSty">
+          <div className="Logo">
+            <img src="../../images/Logo_Lucas.png"/>
+          </div>
+          <nav className="Menu">
+            <ul>
+              <li><button className="btnMenu">Sobre</button></li>
+              <li><button className="btnMenu">Portfólio</button></li>
+              <li><button className="btnMenu">Contato</button></li>
+            </ul>
+          </nav>
         </div>
-        <nav className="Menu">
-          <ul>
-            <li><button className="btnMenu">Sobre</button></li>
-            <li><button className="btnMenu">Portfólio</button></li>
-            <li><button className="btnMenu">Contato</button></li>
-          </ul>
-        </nav>
       </div>
 
     );

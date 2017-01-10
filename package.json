@@ -66,6 +66,7 @@
     "core-js": "^2.0.0",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
+    "react-burger-menu": "^1.10.10",
     "react-dom": "^15.0.0",
     "react-typist": "^1.0.3"
   }
