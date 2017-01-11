@@ -35,6 +35,7 @@ class Presentation extends Component {
                 </div>
               </div>
 					</Sticky>
+          I love Xana i love xota
 					</div>
 				<Presentation2 />
 				<Presentation3 />
