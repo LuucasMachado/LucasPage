@@ -3,7 +3,6 @@
 
 import React, { Component } from 'react';
 import './Presentation2.styl';
-import Header from '../Header/Header.js';
 import Typist from 'react-typist';
 
 

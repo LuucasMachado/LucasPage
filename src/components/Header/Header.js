@@ -11,7 +11,7 @@ class Header extends Component {
 
       <div className="Header">
       <div className="headerSty">
-          <div className="Logo">
+          <div className="nav-logo">
             <img src="../../images/Logo_Lucas.png"/>
           </div>
           <nav className="Menu">
