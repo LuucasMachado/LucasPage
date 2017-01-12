@@ -42,6 +42,7 @@ class Body extends Component {
                     <li><button className="nav-header-menu-btn">Skill</button></li>
                     <li><button className="nav-header-menu-btn">Contato</button></li>
                   </ul>
+
                 </nav>
                 </div>
               </div>
