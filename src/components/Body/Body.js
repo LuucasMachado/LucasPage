@@ -15,6 +15,10 @@ class Body extends Component {
     onStickyStateChange(isSticky) {
       console.log(`Am I sticky?: ${ isSticky ? 'Yep!' : 'Nope!'}`)
     }
+    onHeaderTyped = () => {
+  this.setState({ renderMsg: true });
+}
+
 	render(){
 		return(
 			<StickyContainer>
@@ -23,7 +27,14 @@ class Body extends Component {
             <div className="Header">
               <div className="nav-header-sticky">
                 <div className="nav-header-logo">
-                    <a>LucasDourado</a>
+                  <Typist className="body-typist"
+                  cursor={{ hideWhenDone: true }}
+                  avgTypingSpeed={5}
+                  startDelay={1000}
+                  onTypingDone={this.onHeaderTyped}
+                  >
+                    Lucas Dourado
+                  </Typist>
                 </div>
                 <nav className="nav-header-menu">
                   <ul>
@@ -35,9 +46,6 @@ class Body extends Component {
                 </div>
               </div>
 					</Sticky>
-          <Typist>
-            Animate this text.
-          </Typist>;
 					</div>
 				<Presentation2 />
 				<Presentation3 />
