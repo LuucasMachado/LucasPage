@@ -10,8 +10,10 @@ class Presentation3 extends Component {
 	render(){
 		return(
 			<div className="Presentation3">
-			<div className="buzzPage"></div>
-			<div className="landingApps"></div>
+				<div className="buzzPage">
+					<img src="../../images/Presentation3/bds_responsive.png" />
+					<img src="../../images/Presentation3/bds_responsive.png" />
+				</div>
 			</div>
 		)
 	}
