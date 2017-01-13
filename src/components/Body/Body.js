@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import './Body.styl';
 import Presentation2 from './Presentation2/Presentation2.js';
 import Presentation3 from './Presentation3/Presentation3.js';
+import Contact from './Contact/Contact.js';
 import Header from '../Header/Header.styl';
 import Typist from 'react-typist';
 import { StickyContainer, Sticky } from 'react-sticky';
@@ -50,6 +51,7 @@ class Body extends Component {
 					</div>
 				<Presentation2 />
 				<Presentation3 />
+        <Contact />
 			</StickyContainer>
 		)
 	}
