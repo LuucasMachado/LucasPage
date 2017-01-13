@@ -33,7 +33,7 @@ class Body extends Component {
                   startDelay={1000}
                   onTypingDone={this.onHeaderTyped}
                   >
-                    Lucas Dourado
+                    <b>LucasDourado</b>
                   </Typist>
                 </div>
                 <nav className="nav-header-menu">
