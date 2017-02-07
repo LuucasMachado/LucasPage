@@ -26,6 +26,7 @@ class Body extends Component {
 					<div className="Body">
 					<Sticky>
             <div className="Header">
+            //joao
               <div className="nav-header-sticky">
                 <div className="nav-header-logo">
                   <Typist className="body-typist"
