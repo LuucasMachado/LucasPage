@@ -24,7 +24,7 @@ class Body extends Component {
 		return(
 			<StickyContainer>
 					<div className="Body">
-					<Sticky>
+					<Sticky
             <div className="Header">
               <div className="nav-header-sticky">
                 <div className="nav-header-logo">
